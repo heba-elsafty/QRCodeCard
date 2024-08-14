@@ -4,8 +4,8 @@
 
 
 ##### Table of Contents  
-[Screenshot](#Screenshot)  
-[Preview-link](#Preview-link)  
+- [Screenshot](#Screenshot)  
+- [Preview-link](#Preview-link)  
    
 <a name="Screenshot"/>
 ## Screenshot
