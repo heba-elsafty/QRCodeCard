@@ -10,17 +10,18 @@ import styles from "../styles/QrCard.module.scss";
 
 const QrCard: FC<BaseQrCodeProps> = ({ title, description, classNames }) => {
   return (
-    <div className={clx(styles.qrcode, classNames?.base)}>
-      <div className={clx(styles["qrcode__code"], classNames?.code)}>
+    <div className={clx(styles.qrcode, classNames?.base)} aria-label="qr code card">
+      <div className={clx(styles["qrcode__code"], classNames?.code)} >
         <QRCode
           value="https://www.frontendmentor.io/"
           size={180}
           fgColor="#2c7dfa"
           className={clx(styles["qrcode__code__qr-code"], classNames?.qrCode)}
+          aria-label="Scan QR Code"
         />
       </div>
-      <div className={clx(styles["qrcode__info"], classNames?.info)}>
-        <h1 className={clx(styles["qrcode__title"], classNames?.title)}>
+      <div className={clx(styles["qrcode__info"], classNames?.info)} aria-label="Info of QR Code">
+        <h1 className={clx(styles["qrcode__title"], classNames?.title)} aria-label={`Title of qr code: ${title}`}>
           {title}
         </h1>
         <p
@@ -28,6 +29,7 @@ const QrCard: FC<BaseQrCodeProps> = ({ title, description, classNames }) => {
             styles["qrcode__description"],
             classNames?.description
           )}
+          aria-label={`Description of qr code: ${description}`}
         >
           {description}
         </p>
