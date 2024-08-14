@@ -13,6 +13,6 @@
 ![1440-screen](/public/images/QR-Code-Card-Component-1440.png)
 ![mobile-screen](/public/images/QR-Code-Card-Component-mobile-screen.png)
 
-
-
+## Preview-link
+[Live URL](https://heba-elsafty.github.io/QRCodeCard/)
 
