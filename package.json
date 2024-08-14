@@ -33,7 +33,7 @@
   },
   "scripts": {
     "dev": "react-scripts start ",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build && copy build\\index.html build\\404.html",
     "build:typescript": "tsc --outDir build",
     "build:scss": "sass src/styles:build/styles --style=compressed --no-source-map",
     "test": "jest",
