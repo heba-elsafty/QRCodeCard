@@ -6,7 +6,7 @@
 ##### Table of Contents  
 - [Screenshot](#Screenshot)  
 - [Preview-link](#Preview-link)  
-   
+...snip...    
 <a name="Screenshot"/>
 ## Screenshot
 ![large-screen](/public/images/QR-Code-Card-Component-large-screen.png)
