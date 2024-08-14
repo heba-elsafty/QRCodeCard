@@ -1,7 +1,7 @@
 {
   "name": "@spark-ui-components/qr-code-card-component",
   "description": "A React QR Code Card component",
-  "main": "dist/index.tsx",
+  "main": "build/index.tsx",
   "types": "index.d.ts",
   "license": "MIT",
   "author": "Heba Elsafty",
@@ -23,6 +23,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "eslint": "^9.9.0",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "react-refresh": "^0.14.2",
     "react-scripts": "^5.0.1",
@@ -32,11 +33,12 @@
   "scripts": {
     "dev": "react-scripts start ",
     "build": "yarn run clean-dist && yarn run build:typescript && yarn run build:scss",
-    "build:typescript": "tsc --outDir dist",
+    "build:typescript": "tsc --outDir build",
     "build:scss": "sass src/styles:dist/styles --style=compressed --no-source-map",
     "test": "jest",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "clean-dist": "rimraf dist && mkdir dist"
+    "clean-dist": "rimraf dist && mkdir build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "qrcode",
@@ -71,5 +73,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/heba-elsafty/QRCodeCard"
 }
