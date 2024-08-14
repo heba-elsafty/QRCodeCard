@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/heba-elsafty/QRCodeCard/static/css/main.33644251.css",
-    "main.js": "/heba-elsafty/QRCodeCard/static/js/main.ba047ed8.js",
+    "main.js": "/heba-elsafty/QRCodeCard/static/js/main.e68e0fbc.js",
     "index.html": "/heba-elsafty/QRCodeCard/index.html",
     "main.33644251.css.map": "/heba-elsafty/QRCodeCard/static/css/main.33644251.css.map",
-    "main.ba047ed8.js.map": "/heba-elsafty/QRCodeCard/static/js/main.ba047ed8.js.map"
+    "main.e68e0fbc.js.map": "/heba-elsafty/QRCodeCard/static/js/main.e68e0fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.33644251.css",
-    "static/js/main.ba047ed8.js"
+    "static/js/main.e68e0fbc.js"
   ]
 }
