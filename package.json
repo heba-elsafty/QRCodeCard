@@ -32,9 +32,9 @@
   },
   "scripts": {
     "dev": "react-scripts start ",
-    "build": "yarn run clean-dist && yarn run build:typescript && yarn run build:scss",
+    "build": "react-scripts build && yarn run build:scss",
     "build:typescript": "tsc --outDir build",
-    "build:scss": "sass src/styles:dist/styles --style=compressed --no-source-map",
+    "build:scss": "sass src/styles:build/styles --style=compressed --no-source-map",
     "test": "jest",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "clean-dist": "rimraf dist && mkdir build",
