@@ -1,0 +1,14 @@
+@use "variables" as v;
+
+@mixin text-preset($preset) {
+  @each $key, $value in v.$text-presets {
+    @if map-has-key(v.$text-presets, $preset) {
+      $properties: map-get(v.$text-presets, $preset);
+      @each $property, $property-value in $properties {
+        #{$property}: #{$property-value};
+      }
+    } @else {
+      @warn "No preset named #{$preset}";
+    }
+  }
+}

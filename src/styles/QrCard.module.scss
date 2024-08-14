@@ -1,7 +1,7 @@
-@import "./mixins";
+ @use "../styles/mixins" as m;
 
 .qrcode {
-  font-family: "Outfit", sans-serif;
+  font-family: var(--font-family-base);
   background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0 25px 25px rgba(0, 0, 0, 10%);
@@ -75,13 +75,13 @@
   }
 
   &__title {
-    @include text-preset(1);
+    @include m.text-preset(1);
     color: var(--slate-900);
     font-weight: 700; 
   }
 
   &__description {
-    @include text-preset(2);
+    @include m.text-preset(2);
     color: var(--slate-500);
     font-weight: 400;
     margin-bottom: 1.5rem;

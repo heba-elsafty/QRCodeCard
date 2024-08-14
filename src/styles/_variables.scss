@@ -1,0 +1,18 @@
+$text-presets: (
+  1: (
+    "font-size": var(--lg-font-size),
+    "line-height": 120%,
+  ),
+  2: (
+    "font-size": var(--sm-font-size),
+    "line-height": 140%,
+    "letter-spacing": 0.2px,
+  ),
+);
+
+$font-sizes: (
+  lg: var(--lg-font-size),
+  sm: var(--sm-font-size),
+  md: var(--md-font-size),
+  xs: var(--xs-font-size),
+);
