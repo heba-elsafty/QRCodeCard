@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "inset-inline-start"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
