@@ -6,12 +6,13 @@
 ##### Table of Contents  
 - [Screenshot](#Screenshot)  
 - [Preview-link](#Preview-link)  
-...snip...    
-<a name="Screenshot"/>
+...snip...   
+
 ## Screenshot
 ![large-screen](/public/images/QR-Code-Card-Component-large-screen.png)
 ![1440-screen](/public/images/QR-Code-Card-Component-1440.png)
 ![mobile-screen](/public/images/QR-Code-Card-Component-mobile-screen.png)
+
 
 
 
